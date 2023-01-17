@@ -97,7 +97,7 @@ onMounted(() => {
       <input type="submit" value="Add" />
     </form>
     <div>
-      <h2>Todo List:</h2>
+      <p>Todo List:</p>
       <div v-for="todo in todos_asc">
         <div :class="`card-${todo.category}`">
           <input type="checkbox" v-model="todo.done" />
